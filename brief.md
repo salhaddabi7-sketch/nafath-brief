@@ -52,6 +52,14 @@ Oman's Personal Data Protection Law, issued under Royal Decree 6/2022, sets rule
 
 Sources: MTCIT — Personal Data Protection -https://mtcit.gov.om/sectors/governance/personal
 
+## Misconception in My Track
 
+Myth: Using an SMS code or an authenticator app makes every login safe from phishing.
+
+Many people believe that using a verification code is enough to protect their accounts. However, hackers can create fake websites and trick users into entering their codes. This means that even with two-factor authentication, an account can still be at risk. Passkeys and FIDO2 security keys offer better protection because they check that the user is logging in to the real website.
+
+## Open Question
+
+How can a government login system use AI to detect hackers without blocking real users who log in from a new device or location?
 
 
