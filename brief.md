@@ -30,10 +30,28 @@ On Android, some permissions are requested while you are using the app, not just
 
 Source: Android Developers -https://developer.android.com/training/permissions/requesting
 
+## Networking  DNS over HTTPS (DoH)
+
+Question: What does DoH protect, and what does it not protect?
+
+DNS over HTTPS encrypts DNS requests between your device and the DNS resolver. This makes it harder for your internet service provider (ISP) and other people on the network to read or change those requests. However, DoH does not make you anonymous. The websites you visit can still identify your connection, and DoH does not encrypt all web traffic. HTTPS protects the connection between your browser and a website.
+
+Source: RFC 8484 — DNS Queries over HTTPS -https://www.rfc-editor.org/rfc/rfc8484.html
+
+## Cybersecurity  Phishing-Resistant MFA
+Question: What makes a login phishing-resistant?
+
+Phishing-resistant authentication helps stop fake websites from stealing login information. Passkeys and FIDO2 security keys are good examples because they connect authentication to the real website. SMS codes and codes from authenticator apps are not considered phishing-resistant because users can be tricked into entering them on a fake website. Using passkeys can make government accounts safer.
+Sources: NIST Digital Identity Guidelines- https://pages.nist.gov/800-63-4/sp800-63b.html
+
+## Data  Oman's Personal Data Protection Law
+
+Question: What must organizations do with citizens' personal data?
+
+Oman's Personal Data Protection Law, issued under Royal Decree 6/2022, sets rules for handling personal information. Organizations must obtain consent when required, protect personal data, and respect people's rights. People can request access to their data, ask for corrections, and request deletion where the law allows it. Organizations must also report certain personal data breaches to the relevant authorities and affected people.
+
+Sources: MTCIT — Personal Data Protection -https://mtcit.gov.om/sectors/governance/personal
 
 
 
 
-OAuth 2.0 FAQ
-
-OpenID Connect — How It Works
